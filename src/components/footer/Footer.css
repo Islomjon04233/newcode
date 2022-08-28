@@ -1,0 +1,5 @@
+.site-footer {
+    position: absolute;
+    top: 2650px;
+    z-index: 5;
+}

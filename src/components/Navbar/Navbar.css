@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+.Navbar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+.inspration {
+  position: absolute;
+  z-index: 5;
+  width: 570px;
+  height: 410px;
+  border: 1px solid red;
+  margin-left: 110px;
+  top: 75px;
+  display: none;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.inspration .right {
+  width: 400px;
+}
+.inspration .left {
+  width: 220px;
+  border: 1px solid blue;
+}
+.Navbar img {
+  width: 90px;
+  margin-left: 25px;
+}
+.Navbar img:hover {
+  color: red;
+}
+.Navbar ul {
+  width: 800px;
+  height: 100px;
+  /* border: 1px solid blue; */
+    align-items: center;
+  display: flex;
+}
+.Navbar ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+.Navbar ul li a {
+  font-family: "Kanit", sans-serif;
+  font-size: 16.5px;
+  text-decoration: none;
+  margin-left: -20px;
+  color: #7f7e8a;
+}
+.Navbar ul li a:hover {
+  color: #000;
+}
+.navbar_left {
+  width: 350px;
+  height: 100px;
+  /* border: 2px solid darkviolet; */
+  margin-left: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar_left i {
+  font-size: 19px;
+  color: #9e9ea7;
+  margin-left: 10px;
+  /* margin-right: 20px; */
+}
+.navbar_left .btn1 {
+  font-size: 17px;
+  color: #777682;
+  background: transparent;
+  border: none;
+}
+.navbar_left .btn3 {
+  width: 130px;
+  border-radius: 10px;
+  border: none;
+  background: #ea4c89;
+  margin-right: 20px;
+  color: #ffffff;
+  height: 42px;
+  font-size: 16px;
+  /* font-family: "Rubik", sans-serif; */
+}
+.navbar_left .btn3:focus {
+  background: #ca4377;
+  cursor: pointer;
+}
